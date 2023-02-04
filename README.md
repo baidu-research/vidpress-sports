@@ -11,6 +11,10 @@ The features can be used to reproduce our results in the CVPR 2021 ActivityNet C
 
 The released embedding features are the concatenation of five features extracted using five finetuned video action recognition models. For details, please refer to our tech report on [arXiv](https://arxiv.org/pdf/2106.14447.pdf). The features can also be used to support other soccer video understanding research.
 
+## Fully opensource feature inference and training
+
+We now have a fully open-sourced inference and training pipeline (here.)[https://github.com/baidu-research/Soccernet-features] I recommend the new features pipeline since one can do inference on matches not included with the 550 games (feel free to share and request there) and you can do more tuning / training with it. Without extra tuning and augmentation on the stage 2 action spotting training, these features get a_mAP visibility all: 0.695263465366132 which is very close to the 5 model ensemble we share in this repo.
+
 ### Citation
 If you find our features or tech report helpful, please cite:
 
